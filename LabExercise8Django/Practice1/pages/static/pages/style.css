@@ -1,0 +1,37 @@
+/* Whole page */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #f5f7fa;
+    color: #333333;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #1f4e79;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 16px;
+    font-weight: bold;
+}
+
+/* Headings and list items */
+h1 {
+    color: #1f4e79;
+}
+
+h2 {
+    color: #2e75b6;
+}
+
+li {
+    margin-bottom: 6px;
+}

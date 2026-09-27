@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{% static 'pages/style.css' %}">
+    <meta charset="UTF-8">
+    <title>About Me</title>
+</head>
+
+<body>
+    <nav>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'contact' %}">Contact</a>
+
+    </nav>
+
+    <h1>About Me</h1>
+
+    <p>I study Computer Science and Engineering.</p>
+
+    <p>I am learning Python and building websites with Django.</p>
+
+    <p>My hobbies are reading, cricket, and coding.</p>
+
+</body>
+
+</html>

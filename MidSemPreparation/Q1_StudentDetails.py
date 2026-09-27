@@ -1,0 +1,12 @@
+name = input("Enter Student Name: ")
+regNo = int(input("Enter student register number: "))
+age = int(input("Enter student age: "))
+depart = input("Enter department: ")
+marks = int(input("Enter marks: "))
+
+print("-----------Student Details---------")
+print("Name : ",name)
+print("Register No. : ",regNo)
+print("Age : ",age)
+print("Department : ",depart)
+print("Marks : ",marks)
