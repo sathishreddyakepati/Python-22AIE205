@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Book Library</title>
+    </head>
+    <body>
+        {% for book in books%}
+        <h2>{{book.title}}</h2>
+        <p>Author :{{book.author}}</p>
+        <p>Year:{{book.year_published}}</p>
+        <p>Available: {{book.is_available}}</p>
+        {% endfor %}
+    </body>
+</html>

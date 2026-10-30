@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <link rel="stylesheet" href="{% static 'pages/style.css' %}">
+    </head>
+    <body>
+        <a href="{% url 'about'%}">About Me</a>
+        <h1>Welcome {{student_name}}!</h1>
+        <p>Course: {{course}}.</p>
+        <p>Welcome to my website</p>
+
+        <h2>Skills</h2>
+        <ul>
+            {% for skill in skills%}
+            <li>{{skill}}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

@@ -9,12 +9,9 @@
 <body>
 
     <h1>My Book Library</h1>
-
     <p>Total books: {{ books|length }}</p>
-    
     <p><a href="{% url 'add_book' %}">+ Add a new book</a></p>
-
-    <table border="1" cellpadding="8">
+    <table border="2" cellpadding="8">
 
         <tr>
             <th>No.</th>
@@ -40,7 +37,7 @@
 
         {% endfor %}
 
-    </table>
+    </table> 
 
 </body>
 
